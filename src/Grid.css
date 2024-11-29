@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr); /* 11 columns of equal size */
+    grid-template-rows: repeat(11, 1fr);   /* 11 rows of equal size */
+    width: 100%;                           /* Grid width adapts to screen */
+    margin: 0 auto;                        /* Center the grid horizontally */
+    align-self: center;
+    transform: translateX(-25px);
+  }
+  
+  .cell {
+    /* border: 1px solid #ddd; Optional: Add a border for visibility */
+    background-color: #f0f0f0;
+  }

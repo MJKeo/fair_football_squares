@@ -1,0 +1,88 @@
+/* Center the container vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .input-section {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .text-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  .create-squares-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: white;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-squares-button:hover {
+    background-color: #1e88e5;
+  }
+  
+  .names-list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .name-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .remove-button {
+    color: red;
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  
+  .remove-button:hover {
+    text-decoration: underline;
+  }
+  
